@@ -10,7 +10,7 @@ import { PrimeVueResolver } from "unplugin-vue-components/resolvers";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/vite-pack/",
+  base: "/food-shop/",
   plugins: [
     vue(),
     ViteImageOptimizer({
@@ -69,7 +69,7 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       scss: {
-        additionalData: `@import "@/style/var.scss"; @import "@/style/adaptive.scss";`,
+        additionalData: `@import "@/app/styles/var.scss"; @import "@/app/styles/adaptive.scss";`,
       },
     },
   },

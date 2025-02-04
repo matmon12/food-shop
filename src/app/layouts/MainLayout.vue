@@ -1,10 +1,9 @@
 <template>
   <main>
-    <router-view></router-view>
+    <slot> </slot>
   </main>
 </template>
 
 <script setup></script>
 
-
-<style scoped lang="scss"></style>
+<style lang="scss" scoped></style>
